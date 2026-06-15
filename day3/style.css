@@ -1,0 +1,92 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Georgia, serif;
+    background:#fff;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 50px;
+}
+
+.logo{
+    font-size:35px;
+    font-weight:bold;
+}
+
+ul{
+    display:flex;
+    gap:40px;
+    list-style:none;
+}
+
+.hero{
+    height:85vh;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h1{
+    text-align:center;
+    font-size:90px;
+    font-weight:400;
+    z-index:2;
+}
+
+/* Images */
+
+.img1{
+    position:absolute;
+    width:280px;
+    height:400px;
+    object-fit:cover;
+    left:100px;
+    top:60px;
+}
+
+.img2{
+    position:absolute;
+    width:220px;
+    height:170px;
+    object-fit:cover;
+    right:230px;
+    top:15px;
+}
+
+.img3{
+    position:absolute;
+    width:260px;
+    height:300px;
+    object-fit:cover;
+    right:80px;
+    bottom:px;
+    top: 200px;
+}
+
+.btn{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translateX(-50%);
+    
+    padding:12px 25px;
+    border:1px solid #ccc;
+    border-radius:30px;
+    background:white;
+    cursor:pointer;
+}
+.Contactbtn{
+    padding: 4px  25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
